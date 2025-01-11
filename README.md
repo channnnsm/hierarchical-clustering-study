@@ -34,11 +34,16 @@ https://docs.scipy.org/doc/scipy-1.15.0/reference/cluster.hierarchy.html
 - **weighted(y)**  
   condensed距離行列 `y` に対して、加重/WPGMAリンクを実行します。
 
-- **centroid(y)**  
-  セントロイド/UPGMCリンクを実行します。
+- **centroid(y) / 重心法**  
+  セントロイド/UPGMCリンクを実行します。  
+  UPGMC=Unweighted Pair Group Method using Centroids  
+  各クラスタのサイズに関係なく同じ重みを割り当てます  
 
-- **median(y)**  
-  メディアン/WPGMCリンクを実行します。
+- **median(y) / メディアン法**  
+  メディアン/WPGMCリンクを実行します。  
+  WPGMC=Weighted Pair Group Method using Centroids  
+  クラスタのサイズに基づいて距離に重みを付けます  
+  大きなクラスタが小さなクラスタに比べて距離計算においてより影響を与えるようになる  
 
 - **ward(y)**  
   condensed距離行列 `y` に対してウォード法リンクを実行します。
