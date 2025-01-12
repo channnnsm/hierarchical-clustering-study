@@ -128,3 +128,7 @@ https://docs.scipy.org/doc/scipy-1.15.0/reference/cluster.hierarchy.html
 ### ユーティリティクラス
 - **DisjointSet([elements])**  
   境界の接続クエリに使用される不連結集合データ構造。
+
+---
+Zennに解説記事を記載
+https://zenn.dev/channnnsm/articles/9876aea1156f5c
