@@ -1,6 +1,6 @@
 # hierarchical-clustering-study
 
-以下のScyPyのドキュメントの日本語訳
+以下のSciPyのドキュメントの日本語訳
 
 https://docs.scipy.org/doc/scipy-1.15.0/reference/cluster.hierarchy.html
 
